@@ -1,0 +1,35 @@
+link:focus,
+link:hover,
+link:visited,
+link:link,
+link:active {
+  text-decoration: none;
+}
+.MainLink {
+  
+  color: var(--color-light);
+  position: relative;
+  text-align: center;
+  z-index: 50;
+}
+.MainLink > div {
+  outline: none;
+  user-select: none;
+}
+.MainLink:hover {
+  
+  color: var(--color-dark);
+  opacity: 0.9;
+}
+.MainLink:hover > .linkList {
+  visibility: visible;
+}
+.linkList {
+  background-color: var(--color-dark);
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+}
+.linkList > a {
+  text-decoration: none;
+}

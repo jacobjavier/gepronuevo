@@ -1,0 +1,47 @@
+.table {
+  height: 100%;
+  margin: 0 1%;
+  width: 98%;
+  overflow: auto;
+  color: blueviolet;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  
+  
+}
+.title {
+  background-color: blue;
+  border: none;
+  color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.title > .cell {
+  padding: 0;
+}
+.rowContainer {
+  align-items: center;
+  border-bottom: 1px dashed var(--color-dark);
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-auto-rows: max-content;
+  height: max-content;
+  text-align: center;
+  width: max-content;
+  border-radius: 10px;
+}
+
+/*  */
+.animOpacityIn {
+  animation: opacityIn 1s ease forwards;
+}
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

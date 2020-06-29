@@ -1,0 +1,21 @@
+.threeColumns {
+  height: 90%;
+  margin: 0 10%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:  "a b c"
+				"a b c";
+  grid-gap: 5px;
+}
+
+.col1{
+	grid-area:a;
+}
+.col2{
+	grid-area:b;
+}
+.col3{
+	grid-area:c;
+}

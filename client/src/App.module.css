@@ -1,0 +1,30 @@
+:root {
+  --color-dark: black;
+  --color-gray-20: #202020;
+  --color-gray-40: #404040;
+  --color-gray-60: #606060;
+  --color-gray-80: #808080;
+  --color-gray-A0: #a0a0a0;
+  --color-gray-C0: #c0c0c0;
+  --color-gray-E0: #e0e0e0;
+  --color-light: white;
+  --color-primary-dark: #217797;
+  --color-primary-light: #77f3f7;
+  --color-primary-more-dark: #134354;
+  --color-primary-more-light: #c2f7f9;
+  --color-primary: #1ea5aa;
+  --color-secondary-header: #cccccc;
+  --color-text-light: white;
+  --color-text-ok: #125d12;
+  --size-basic-height: 25px;
+  --size-big-icon: 64px;
+}
+.App {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+}
+
+.App-logo {
+  height: 40vmin;
+}

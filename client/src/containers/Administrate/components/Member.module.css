@@ -1,0 +1,14 @@
+.member {
+  display: flex;
+  color: var(--color-dark);
+  width: 100%;
+  border-bottom: 1px solid var(--color-dark);
+  padding-bottom: 2px;
+}
+.memberText {
+  text-align: center;
+  width: 80%;
+}
+.memberButton {
+  width: 20%;
+}

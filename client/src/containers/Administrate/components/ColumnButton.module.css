@@ -1,0 +1,22 @@
+.column {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.tooltip {
+  display: grid;
+  grid-auto-rows: 25px;
+  grid-template-columns: 1fr 2fr;
+  height: 320px;
+  padding: 5%;
+  row-gap: 10px;
+  width: 90%;
+}
+.title {
+  grid-column: span 2;
+  margin: 0;
+  text-align: center;
+}
+.saveButtons > * {
+  width: 50%;
+}

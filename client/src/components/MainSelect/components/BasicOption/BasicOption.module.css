@@ -1,0 +1,11 @@
+.basicOption {
+  cursor: pointer;
+  user-select: none;
+}
+.basicOption:hover {
+  color: var(--color-dark);
+  background-color: #ffffffca;
+}
+.selected {
+  background-color: var(--color-primary);
+}

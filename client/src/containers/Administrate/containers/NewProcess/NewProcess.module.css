@@ -1,0 +1,13 @@
+.newProcedure {
+  display: grid;
+  grid-auto-rows: var(--size-basic-height);
+  height: max-content;
+  margin-bottom: 15px;
+  row-gap: 5px;
+  width: 90%;
+  height: (90% - 20px);
+  padding:2.5%;
+  margin: auto;
+  border: 1px solid var(--color-dark);
+  color: white;
+}

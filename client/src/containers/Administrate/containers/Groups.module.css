@@ -1,0 +1,14 @@
+.groups {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: 25px;
+  row-gap: 5px;
+  overflow: visible;
+  /* position: relative; */
+}
+.groups > * {
+  /*  */
+  /* background-color: red; */
+}

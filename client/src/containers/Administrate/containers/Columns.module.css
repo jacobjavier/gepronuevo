@@ -1,0 +1,10 @@
+.columns {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: 25px;
+  grid-row-gap: 5px;
+  row-gap: 5px;
+  overflow: visible;
+}

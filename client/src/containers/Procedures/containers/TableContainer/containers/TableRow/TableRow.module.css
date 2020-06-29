@@ -1,0 +1,22 @@
+.rowContainer {
+  align-items: center;
+  border-bottom: 1px dashed var(--color-dark);
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-auto-rows: max-content;
+  height: max-content;
+  text-align: center;
+  width: max-content;
+}
+.titleContainer {
+  background-color: var(--color-primary-more-dark);
+  border: none;
+  color: var(--color-light);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.titleContainer > .cell {
+  padding: 0;
+}

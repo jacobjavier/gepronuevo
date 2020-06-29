@@ -1,0 +1,30 @@
+.container {
+  position: relative; 
+}
+.tooltipContainer {
+  display: grid;
+  grid-auto-rows: 25px;
+  grid-template-columns: 1fr 2fr;
+  padding: 15px;
+  height: 100%;
+  min-width: 500px;
+  row-gap: 5px;
+}
+.title {
+  grid-column: span 2;
+  text-align: center;
+}
+.membersContainer {
+  background-color: var(--color-light);
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 5;
+  grid-template-columns: 100%;
+  grid-template-rows: var(--size-basic-height) auto;
+  height: 100%;
+  width: 100%;
+}
+.membersContent {
+  height: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,7 @@
+.tableContainer {
+  border: 190px solid var(--color-dark);
+  grid-area: content;
+  height: 99%;
+  overflow: auto;
+  width: 99%;
+}

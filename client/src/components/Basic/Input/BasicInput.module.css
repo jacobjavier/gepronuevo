@@ -1,0 +1,77 @@
+.inputContainer {
+  width: 100%;
+  height: max-content;
+  text-align: left;
+}
+.inputText:focus,
+.inputText:active {
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.inputText {
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 1em;
+  outline: none;
+  text-align: center;
+  width: 99%;
+}
+.imageContainer {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 0;
+  overflow: hidden;
+}
+.loader {
+  height: 1.2em;
+}
+/* Animations */
+.animSizeIn {
+  animation: sizeIn 1s forwards;
+}
+.animSizeOut {
+  animation: sizeOut 1s forwards;
+}
+.animShowImg {
+  animation: showImg 1.5s forwards;
+}
+.animHideImg {
+  animation: hideImg 1s forwards;
+}
+@keyframes sizeIn {
+  0% {
+    width: 99%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes sizeOut {
+  0% {
+    width: 80%;
+  }
+  100% {
+    width: 99%;
+  }
+}
+@keyframes showImg {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 19%;
+    opacity: 1;
+  }
+}
+@keyframes hideImg {
+  0% {
+    opacity: 1;
+    width: 19%;
+  }
+  100% {
+    opacity: 1;
+    width: 0;
+  }
+}

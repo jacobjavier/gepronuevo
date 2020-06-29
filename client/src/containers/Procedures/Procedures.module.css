@@ -1,0 +1,67 @@
+.procedures {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 3vh) 75vh 3vh;
+  height: max-content;
+  justify-items: center;
+  margin: auto;
+  padding: 0 2%;
+  row-gap: 15px;
+  width: 96%;
+}
+.title {
+  display: inline-block;
+  margin: 0;
+}
+.selectContainer {
+  height: 100%;
+  width: 70%;
+  
+}
+.menu {
+  display: flex;
+  height: 100%;
+  
+}
+.table {
+  height: 100%;
+  margin: 0 1%;
+  width: 98%;
+}
+.submenu {
+  display: grid;
+  grid-template-areas: 'cbx add';
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 100%;
+  height: 100%;
+  width: 100%;
+}
+.addBtn {
+  position: relative;
+  grid-area: add;
+  width: 100%;
+}
+.addContainer {
+  padding: 3% 5%;
+  text-align: center;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 10px;
+  grid-auto-rows: var(--size-basic-height);
+}
+.addContainer > h3 {
+  grid-column: span 2;
+}
+.animOpacityIn {
+  animation: opacityIn 1s ease forwards;
+}
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

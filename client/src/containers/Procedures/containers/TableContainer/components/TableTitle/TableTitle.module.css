@@ -1,0 +1,9 @@
+.title {
+  background-color: var(--color-primary-more-dark);
+  border: none;
+  color: var(--color-light);
+  height: 100%;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}

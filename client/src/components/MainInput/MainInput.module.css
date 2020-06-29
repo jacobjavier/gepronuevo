@@ -1,0 +1,38 @@
+.mainInput {
+  border: 1px solid var(--color-dark);
+  display: flex;
+  height: calc(100% - 2px);
+  overflow: hidden;
+  position: relative;
+  width: calc(100% - 2px);
+}
+.input {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  background-color: whitesmoke;
+  
+}
+.img {
+  background: var(--color-primary-dark);
+  background: linear-gradient(
+    45deg,
+    var(--color-primary) 0%,
+    var(--color-primary-dark) 100%
+  );
+  border-right: 1px solid var(--color-dark);
+  height: 100%;
+}
+/* Types */
+.color {
+  padding: 0 30%;
+  margin: 0;
+}
+/* .color::after {
+  left: 50%;
+  top: 5px;
+  position: absolute;
+} */

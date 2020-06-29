@@ -1,0 +1,8 @@
+.ButtonModal {
+  height: 30px;
+  position: relative;
+  width: 150px;
+}
+.hidden {
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.subtitle {
+  align-items: center;
+  background-color: var(--color-primary-dark);
+  color: var(--color-light);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}

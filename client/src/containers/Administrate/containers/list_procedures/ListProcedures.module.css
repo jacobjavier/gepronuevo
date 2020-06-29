@@ -1,0 +1,26 @@
+.list {
+  border-right: 3px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 10fr;
+  height: calc(96vh - 5px);
+  padding-left: 45px;
+  padding-right: 30px;
+  padding-top: 5px;
+  background-color: black;
+}
+.listContent {
+  height: calc(95% - 5px);
+  overflow: auto;
+  padding-top: 5px;
+
+}
+.listContent > div {
+  margin-bottom: 5px;
+
+}
+.list > div > h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
